@@ -14,7 +14,7 @@
 
 @interface PickerTestController ()<CustomPickerAgent>
 @property (weak, nonatomic) IBOutlet UIPickerLabel *pickerLabel;
-@property (nonatomic,strong) UIPickerLabel *pickerLabelNew;
+
 @property (nonatomic,strong) NormalPickerView *picker;
 @end
 
@@ -48,12 +48,6 @@
     
     _pickerLabel.inputAccessoryView = inputAccView;
     
-    // 触发显示的label在这里
-    _pickerLabelNew = [[UIPickerLabel alloc] initWithFrame:CGRectMake(10, 70, 100, 20)];
-    _pickerLabelNew.text = @"new Anna";
-    _pickerLabelNew.inputAccessoryView = inputAccView;
-    _pickerLabelNew.inputView = _picker;
-    [self.view addSubview:_pickerLabelNew];
 }
 
 - (void)customPickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component chooseObj:(NSObject *)chooseObj

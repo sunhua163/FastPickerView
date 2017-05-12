@@ -47,7 +47,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点我" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv8-oA-gFr" customClass="UIPickerLabel">
-                                <rect key="frame" x="170" y="291" width="35" height="21"/>
+                                <rect key="frame" x="170" y="211" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,7 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Dv8-oA-gFr" firstAttribute="centerY" secondItem="kBt-7B-HjZ" secondAttribute="centerY" id="bDb-CO-vRr"/>
+                            <constraint firstItem="Dv8-oA-gFr" firstAttribute="centerY" secondItem="kBt-7B-HjZ" secondAttribute="centerY" constant="-80" id="bDb-CO-vRr"/>
                             <constraint firstItem="Dv8-oA-gFr" firstAttribute="centerX" secondItem="kBt-7B-HjZ" secondAttribute="centerX" id="iIn-RG-kMX"/>
                         </constraints>
                     </view>
