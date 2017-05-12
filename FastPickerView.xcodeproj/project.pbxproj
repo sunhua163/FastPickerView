@@ -13,6 +13,12 @@
 		663549EF1EC586DB0063F0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663549ED1EC586DB0063F0E7 /* Main.storyboard */; };
 		663549F11EC586DB0063F0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663549F01EC586DB0063F0E7 /* Assets.xcassets */; };
 		663549F41EC586DB0063F0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663549F21EC586DB0063F0E7 /* LaunchScreen.storyboard */; };
+		66354A081EC587750063F0E7 /* CustomPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663549FE1EC587750063F0E7 /* CustomPickerDelegate.m */; };
+		66354A091EC587750063F0E7 /* NormalPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66354A001EC587750063F0E7 /* NormalPickerView.m */; };
+		66354A0A1EC587750063F0E7 /* PickerInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66354A031EC587750063F0E7 /* PickerInputAccessoryView.m */; };
+		66354A0B1EC587750063F0E7 /* PickerInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66354A041EC587750063F0E7 /* PickerInputAccessoryView.xib */; };
+		66354A0C1EC587750063F0E7 /* UIPickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66354A071EC587750063F0E7 /* UIPickerLabel.m */; };
+		66354A0F1EC587890063F0E7 /* PickerTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66354A0E1EC587890063F0E7 /* PickerTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		663549F01EC586DB0063F0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663549F31EC586DB0063F0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663549F51EC586DB0063F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663549FD1EC587750063F0E7 /* CustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerDelegate.h; sourceTree = "<group>"; };
+		663549FE1EC587750063F0E7 /* CustomPickerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerDelegate.m; sourceTree = "<group>"; };
+		663549FF1EC587750063F0E7 /* NormalPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalPickerView.h; sourceTree = "<group>"; };
+		66354A001EC587750063F0E7 /* NormalPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPickerView.m; sourceTree = "<group>"; };
+		66354A021EC587750063F0E7 /* PickerInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerInputAccessoryView.h; sourceTree = "<group>"; };
+		66354A031EC587750063F0E7 /* PickerInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerInputAccessoryView.m; sourceTree = "<group>"; };
+		66354A041EC587750063F0E7 /* PickerInputAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerInputAccessoryView.xib; sourceTree = "<group>"; };
+		66354A061EC587750063F0E7 /* UIPickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPickerLabel.h; sourceTree = "<group>"; };
+		66354A071EC587750063F0E7 /* UIPickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPickerLabel.m; sourceTree = "<group>"; };
+		66354A0D1EC587890063F0E7 /* PickerTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTestController.h; sourceTree = "<group>"; };
+		66354A0E1EC587890063F0E7 /* PickerTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +75,11 @@
 		663549E31EC586DB0063F0E7 /* FastPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				663549FB1EC587670063F0E7 /* FastPickerView */,
 				663549E71EC586DB0063F0E7 /* AppDelegate.h */,
 				663549E81EC586DB0063F0E7 /* AppDelegate.m */,
+				66354A0D1EC587890063F0E7 /* PickerTestController.h */,
+				66354A0E1EC587890063F0E7 /* PickerTestController.m */,
 				663549EA1EC586DB0063F0E7 /* ViewController.h */,
 				663549EB1EC586DB0063F0E7 /* ViewController.m */,
 				663549ED1EC586DB0063F0E7 /* Main.storyboard */,
@@ -77,6 +97,46 @@
 				663549E51EC586DB0063F0E7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		663549FB1EC587670063F0E7 /* FastPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				663549FC1EC587750063F0E7 /* CustomPickerDelegate */,
+				663549FF1EC587750063F0E7 /* NormalPickerView.h */,
+				66354A001EC587750063F0E7 /* NormalPickerView.m */,
+				66354A011EC587750063F0E7 /* PickerInputAccessoryView */,
+				66354A051EC587750063F0E7 /* UIPickerLabel */,
+			);
+			path = FastPickerView;
+			sourceTree = "<group>";
+		};
+		663549FC1EC587750063F0E7 /* CustomPickerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				663549FD1EC587750063F0E7 /* CustomPickerDelegate.h */,
+				663549FE1EC587750063F0E7 /* CustomPickerDelegate.m */,
+			);
+			path = CustomPickerDelegate;
+			sourceTree = "<group>";
+		};
+		66354A011EC587750063F0E7 /* PickerInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				66354A021EC587750063F0E7 /* PickerInputAccessoryView.h */,
+				66354A031EC587750063F0E7 /* PickerInputAccessoryView.m */,
+				66354A041EC587750063F0E7 /* PickerInputAccessoryView.xib */,
+			);
+			path = PickerInputAccessoryView;
+			sourceTree = "<group>";
+		};
+		66354A051EC587750063F0E7 /* UIPickerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				66354A061EC587750063F0E7 /* UIPickerLabel.h */,
+				66354A071EC587750063F0E7 /* UIPickerLabel.m */,
+			);
+			path = UIPickerLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +200,7 @@
 			files = (
 				663549F41EC586DB0063F0E7 /* LaunchScreen.storyboard in Resources */,
 				663549F11EC586DB0063F0E7 /* Assets.xcassets in Resources */,
+				66354A0B1EC587750063F0E7 /* PickerInputAccessoryView.xib in Resources */,
 				663549EF1EC586DB0063F0E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66354A0A1EC587750063F0E7 /* PickerInputAccessoryView.m in Sources */,
+				66354A091EC587750063F0E7 /* NormalPickerView.m in Sources */,
 				663549EC1EC586DB0063F0E7 /* ViewController.m in Sources */,
+				66354A0F1EC587890063F0E7 /* PickerTestController.m in Sources */,
+				66354A0C1EC587750063F0E7 /* UIPickerLabel.m in Sources */,
+				66354A081EC587750063F0E7 /* CustomPickerDelegate.m in Sources */,
 				663549E91EC586DB0063F0E7 /* AppDelegate.m in Sources */,
 				663549E61EC586DB0063F0E7 /* main.m in Sources */,
 			);
