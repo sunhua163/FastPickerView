@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FastPickerView"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "FastPickerView can creat pickerView fast."
   s.description  = <<-DESC
   这是一个关于pickerView的框架，可以便捷的更改pickerView的样式以及修改背景色
