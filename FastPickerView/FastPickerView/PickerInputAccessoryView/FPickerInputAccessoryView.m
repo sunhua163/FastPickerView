@@ -6,13 +6,13 @@
 //  Copyright © 2017年 sunhua. All rights reserved.
 //
 
-#import "PickerInputAccessoryView.h"
+#import "FPickerInputAccessoryView.h"
 
-@implementation PickerInputAccessoryView
+@implementation FPickerInputAccessoryView
 
 + (instancetype)creatPickerInputAccessoryView
 {
-    PickerInputAccessoryView *inputAccView = [[NSBundle mainBundle] loadNibNamed:@"PickerInputAccessoryView" owner:self options:nil].lastObject;
+    FPickerInputAccessoryView *inputAccView = [[NSBundle mainBundle] loadNibNamed:@"FPickerInputAccessoryView" owner:self options:nil].lastObject;
     
     return inputAccView;
 }

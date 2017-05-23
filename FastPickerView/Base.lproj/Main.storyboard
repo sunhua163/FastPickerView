@@ -46,7 +46,7 @@
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点我" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv8-oA-gFr" customClass="UIPickerLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点我" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv8-oA-gFr" customClass="FPickerLabel">
                                 <rect key="frame" x="170" y="211" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -60,7 +60,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="pickerLabel" destination="Dv8-oA-gFr" id="Xpb-qm-Gu0"/>
+                        <outlet property="pickerLabel" destination="Dv8-oA-gFr" id="6Jh-mp-lqO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kso-el-7Rb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -72,7 +72,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uVv-N6-oZV" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="cCf-JC-jpF">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="cCf-JC-jpF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

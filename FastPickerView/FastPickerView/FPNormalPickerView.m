@@ -6,14 +6,14 @@
 //  Copyright © 2017年 sunhua. All rights reserved.
 //
 
-#import "NormalPickerView.h"
-#import "PickerInputAccessoryView.h"
-@interface NormalPickerView ()
+#import "FPNormalPickerView.h"
+#import "FPickerInputAccessoryView.h"
+@interface FPNormalPickerView ()
 
 @property (nonatomic,strong) NSObject<UIPickerViewDelegate,UIPickerViewDataSource> *agent;
 
 @end
-@implementation NormalPickerView
+@implementation FPNormalPickerView
 
 - (instancetype)initWithDelegateRealize:(NSObject<UIPickerViewDelegate,UIPickerViewDataSource> *)agent
 {

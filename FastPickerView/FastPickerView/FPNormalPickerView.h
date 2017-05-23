@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface NormalPickerView : UIPickerView
+@interface FPNormalPickerView : UIPickerView
 
 @property (nonatomic, copy) void (^selectBlock)(NSArray *selectArr);
 

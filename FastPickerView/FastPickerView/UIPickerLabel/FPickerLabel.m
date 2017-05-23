@@ -6,9 +6,9 @@
 //  Copyright © 2017年 sunhua. All rights reserved.
 //
 
-#import "UIPickerLabel.h"
+#import "FPickerLabel.h"
 
-@implementation UIPickerLabel
+@implementation FPickerLabel
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIPickerLabel : UILabel
+@interface FPickerLabel : UILabel
 
 @property (nonatomic, copy) void (^becomeResponse)(BOOL response);
 

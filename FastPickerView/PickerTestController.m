@@ -7,15 +7,15 @@
 //
 
 #import "PickerTestController.h"
-#import "CustomPickerDelegate.h"
-#import "PickerInputAccessoryView.h"
-#import "NormalPickerView.h"
-#import "UIPickerLabel.h"
+#import "FPCustomPickerDelegate.h"
+#import "FPickerInputAccessoryView.h"
+#import "FPNormalPickerView.h"
+#import "FPickerLabel.h"
 
-@interface PickerTestController ()<CustomPickerAgent>
-@property (weak, nonatomic) IBOutlet UIPickerLabel *pickerLabel;
+@interface PickerTestController ()<FPCustomPickerAgent>
+@property (weak, nonatomic) IBOutlet FPickerLabel *pickerLabel;
 
-@property (nonatomic,strong) NormalPickerView *picker;
+@property (nonatomic,strong) FPNormalPickerView *picker;
 @end
 
 @implementation PickerTestController
@@ -28,16 +28,16 @@
     NSArray *shenzhenArray = @[@"龙华新区", @"大鹏新区", @"福田区", @"罗湖区", @"宝安区", @"龙岗区", @"南山区"];
     
     // 设置代理
-    CustomPickerDelegate *pickerAgent = [[CustomPickerDelegate alloc] init];
+    FPCustomPickerDelegate *pickerAgent = [[FPCustomPickerDelegate alloc] init];
     pickerAgent.dataSource = @[meizhouArray,guangzhouArray,shenzhenArray];
     pickerAgent.delegte = self;
     
     // 创建 pickerView
-    _picker = [[NormalPickerView alloc] initWithDelegateRealize:pickerAgent];
+    _picker = [[FPNormalPickerView alloc] initWithDelegateRealize:pickerAgent];
     _pickerLabel.inputView = _picker;
     
     // 创建 pickerView 上方的菜单栏 取消、确定以及半透明黑色背景在这里
-    PickerInputAccessoryView *inputAccView = [PickerInputAccessoryView creatPickerInputAccessoryView];
+    FPickerInputAccessoryView *inputAccView = [FPickerInputAccessoryView creatPickerInputAccessoryView];
     CGSize size = [UIScreen mainScreen].bounds.size;
     inputAccView.bounds = CGRectMake(0, 0, size.width, size.height - _picker.frame.size.height);
     

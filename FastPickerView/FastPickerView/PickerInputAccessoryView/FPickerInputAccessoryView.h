@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 // 推荐使用 方式 textfield.inputAccessoryView = [PickerInputAccessoryView creatPickerInputAccessoryView];
-@interface PickerInputAccessoryView : UIView
+@interface FPickerInputAccessoryView : UIView
 
 @property (nonatomic, copy) void (^resultblock)(BOOL sure);
 

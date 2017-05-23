@@ -6,9 +6,9 @@
 //  Copyright © 2017年 sunhua. All rights reserved.
 //
 
-#import "CustomPickerDelegate.h"
+#import "FPCustomPickerDelegate.h"
 
-@implementation CustomPickerDelegate
+@implementation FPCustomPickerDelegate
 
 // UIPickerViewDataSource
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
